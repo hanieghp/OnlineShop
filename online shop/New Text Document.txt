@@ -1,0 +1,7 @@
+ro class customer kar kon ,
+to addproduct check kon bebin chizi dobar add nemishe,
+getter bara class product bezar,
+clear kardan filo dorost kon,
+sortby rating bezar,
+rating customero hesab kon(fek konam baiad static koni),
+cart ro dorost kon
