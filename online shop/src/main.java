@@ -12,8 +12,14 @@ public class main {
         kl.addComment(comm2);
         Comment comm3= new Comment("s","kiri",5);
         pl.addComment(comm3);
+        Customer cus = new Customer("lo","123");
+        cus.addtocart(pl);
+        cus.addtocart(kl);
+        cus.more(pl);
+        //cus.less(kl);
 
         try {
+            System.out.println(cus.purchase());
             Products pp = new Products();
            pp.addProduct(kl);
             pp.addProduct(ol);

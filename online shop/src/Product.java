@@ -100,12 +100,12 @@ public abstract class Product implements Serializable {
         if (this == o) return true;
         if (!(o instanceof Product)) return false;
         Product product = (Product) o;
-        return Double.compare(product.getRating(), getRating()) == 0 && getPrice() == product.getPrice() && getAmount() == product.getAmount() && getDiscount() == product.getDiscount() && Objects.equals(getNameofpro(), product.getNameofpro()) && Objects.equals(getDescription(), product.getDescription());
+        return Double.compare(product.getRating(), getRating()) == 0 && getPrice() == product.getPrice() && getDiscount() == product.getDiscount() && Objects.equals(getNameofpro(), product.getNameofpro()) && Objects.equals(getDescription(), product.getDescription());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getNameofpro(), getDescription(), getRating(), getPrice(), getAmount(), getDiscount());
+        return Objects.hash(getNameofpro(), getDescription(), getRating(), getPrice(), getDiscount());
     }
 
     public String toString(){
