@@ -31,9 +31,6 @@ public class Products {
 
         //if(pro != null && edible != null&& drink!= null && dairy != null && meat != null && jf != null )
         //k();
-
-
-
     }
     private void k() throws IOException, ClassNotFoundException {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(pro));

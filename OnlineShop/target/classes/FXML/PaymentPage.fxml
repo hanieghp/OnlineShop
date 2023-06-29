@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="541.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pay.PaymentPageController">
+   <children>
+      <ImageView fitHeight="547.0" fitWidth="606.0" opacity="0.88">
+         <image>
+            <Image url="@moon.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="namefeild" layoutX="70.0" layoutY="90.0" text="Name : " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <TextField fx:id="Name" layoutX="188.0" layoutY="90.0" prefHeight="25.0" prefWidth="180.0" promptText="Name" />
+      <Label layoutX="70.0" layoutY="140.0" text="Address : " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="190.0" prefHeight="21.0" prefWidth="61.0" text="Phone :" textFill="WHITE">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="240.0" text="Discount Code :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect></Label>
+      <Label layoutX="70.0" layoutY="336.0" text="Total pay : " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect></Label>
+      <TextField fx:id="addressFeild" layoutX="188.0" layoutY="140.0" prefHeight="25.0" prefWidth="180.0" promptText="Address" />
+      <TextField fx:id="phoneFeild" layoutX="188.0" layoutY="190.0" prefHeight="25.0" prefWidth="180.0" promptText="Phone" />
+      <TextField fx:id="DiscountField" layoutX="188.0" layoutY="240.0" prefHeight="25.0" prefWidth="180.0" promptText="Discount code" />
+      <Button fx:id="checkButton" blendMode="DIFFERENCE" layoutX="70.0" layoutY="290.0" mnemonicParsing="false" onAction="#CheckButtonAction" text="Check" />
+      <Label fx:id="totalPayLable" layoutX="188.0" layoutY="336.0" textFill="WHITE" />
+      <Button fx:id="PayButton" blendMode="DIFFERENCE" layoutX="70.0" layoutY="382.0" mnemonicParsing="false" onAction="#PayButtonAction" prefHeight="45.0" prefWidth="61.0" text="Pay" />
+      <Label fx:id="DiscountValidation" layoutX="188.0" layoutY="294.0" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

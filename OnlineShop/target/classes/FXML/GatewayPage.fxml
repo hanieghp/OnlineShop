@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pay.GatewayPageController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@Payimage.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="PardakhtButton" blendMode="SOFT_LIGHT" layoutX="660.0" layoutY="478.0" mnemonicParsing="false" onAction="#payButtonAction" prefHeight="39.0" prefWidth="113.0">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button fx:id="enserafButton" blendMode="SOFT_LIGHT" layoutX="505.0" layoutY="480.0" mnemonicParsing="false" onAction="#enserafButtonAction" prefHeight="42.0" prefWidth="113.0" />
+      <TextField fx:id="cardcodeField" layoutX="464.0" layoutY="155.0" prefHeight="35.0" prefWidth="323.0" promptText="شماره کارت" />
+      <TextField fx:id="secondpassField" layoutX="464.0" layoutY="203.0" prefHeight="35.0" prefWidth="323.0" promptText="رمز دوم" />
+      <TextField fx:id="cvv2Field" layoutX="464.0" layoutY="251.0" prefHeight="35.0" prefWidth="323.0" promptText="cvv2" />
+      <Label fx:id="payLable" layoutX="56.0" layoutY="520.0" prefHeight="17.0" prefWidth="96.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="MounthEXP" layoutX="654.0" layoutY="300.0" prefHeight="35.0" prefWidth="132.0" promptText="ماه" />
+      <TextField fx:id="yearEXP" layoutX="496.0" layoutY="300.0" prefHeight="35.0" prefWidth="132.0" promptText="سال" />
+      <TextField fx:id="emailField" layoutX="411.0" layoutY="395.0" prefHeight="35.0" prefWidth="373.0" promptText="ایمیل" />
+   </children>
+</AnchorPane>
