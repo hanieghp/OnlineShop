@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 public class GatewayPageController {
     public Stage primaryStage;
+    //public static String email;
     @FXML
     private Button PardakhtButton;
 
@@ -24,9 +25,6 @@ public class GatewayPageController {
     private TextField cvv2Field;
 
     @FXML
-    private Label payLable;
-
-    @FXML
     private TextField emailField;
 
     @FXML
@@ -37,7 +35,8 @@ public class GatewayPageController {
 
     @FXML
     private TextField yearEXP;
-
+    @FXML
+    private static Label PayLable;
     @FXML
     void payButtonAction(ActionEvent event) {
         if (validateFields()) {
@@ -47,7 +46,6 @@ public class GatewayPageController {
             String email = emailField.getText();
             //sendEmail(email);
     }
-
     @FXML
     void enserafButtonAction(ActionEvent event) {
 
@@ -130,6 +128,7 @@ public class GatewayPageController {
         alert.showAndWait();
     }
     private void sendEmail(String email) {
+        //EmailMain sendEma = new EmailMain();
     }
 }
 
