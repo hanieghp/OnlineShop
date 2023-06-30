@@ -11,7 +11,7 @@ import javafx.scene.control.TextField;
 public class PaymentPageController {
     PaymentPage paymentPage = new PaymentPage();
     private String discountCode = "1234";
-    private double totalPay = 100.0;
+    public static double totalPay = 100.0;
     @FXML
     private Label namefeild;
 
