@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="865.0" prefWidth="836.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginMenuController">
+   <children>
+      <ImageView fitHeight="133.0" fitWidth="85.0" layoutX="277.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="12.0" layoutY="269.0" prefHeight="497.0" prefWidth="632.0" style="-fx-border-radius: 25;">
+         <content>
+            <AnchorPane prefHeight="642.0" prefWidth="618.0" style="-fx-border-radius: 25;">
+               <children>
+                  <Separator layoutX="282.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="18.0" />
+                  <AnchorPane fx:id="anchor_1" layoutX="14.0" layoutY="14.0" prefHeight="244.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@rob-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="9.0" layoutY="150.0" prefHeight="17.0" prefWidth="153.0" text="کنسرو رب گوجه فرنگی 800 گرم">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="18.0" layoutY="207.0" text="45000 تومان">
+                           <font>
+                              <Font name="Serif Regular" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="176.0" prefHeight="18.0" prefWidth="39.0">
+                           <graphic>
+                              <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Button layoutX="108.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="159.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="112.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="24.0" layoutX="163.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="136.0" layoutY="195.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_2" layoutX="316.0" layoutY="14.0" prefHeight="271.0" prefWidth="208.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="170.0" layoutX="14.0" layoutY="-24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@roghan-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="14.0" layoutY="153.0" text="روغن سرخ کردنی بهار 1.8 کیلوگرم">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="207.0" text="78000 تومان">
+                           <font>
+                              <Font name="SansSerif Regular" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="176.0" prefHeight="21.0" prefWidth="42.0">
+                           <graphic>
+                              <ImageView fitHeight="21.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Button layoutX="105.0" layoutY="199.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="162.0" layoutY="199.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="166.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="109.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="135.0" layoutY="202.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                     </children>
+                  </AnchorPane>
+                  <Separator layoutX="112.0" layoutY="276.0" prefHeight="0.0" prefWidth="359.0" />
+                  <Separator layoutX="286.0" layoutY="305.0" orientation="VERTICAL" prefHeight="171.0" prefWidth="5.0" />
+                  <AnchorPane fx:id="anchor_3" layoutX="39.0" layoutY="285.0" prefHeight="211.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@roghan_oila-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="24.0" layoutY="132.0" prefHeight="18.0" prefWidth="144.0" text="روغن سرخ کردنی اویلا 800 گرمی">
+                           <font>
+                              <Font name="SansSerif Regular" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="150.0" prefHeight="17.0" prefWidth="42.0">
+                           <graphic>
+                              <ImageView fitHeight="26.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="176.0" text="70000 تومان" />
+                        <Button layoutX="96.0" layoutY="172.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="153.0" layoutY="172.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Label alignment="CENTER" layoutX="127.0" layoutY="172.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                        <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="157.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="100.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_4" layoutX="320.0" layoutY="264.0" prefHeight="208.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="161.0" layoutX="20.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@roghan_chincin-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="14.0" layoutY="135.0" text="کنسرو رب گوجه فرنگی چین چین 600 گرمی">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="RIGHT" layoutX="17.0" layoutY="159.0" prefHeight="17.0" prefWidth="39.0" textAlignment="RIGHT">
+                           <graphic>
+                              <ImageView fitHeight="19.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="186.0" text="38000تومان">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="97.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="159.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="163.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="101.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="129.0" layoutY="182.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                     </children>
+                  </AnchorPane>
+                  <Separator layoutX="109.0" layoutY="483.0" prefHeight="15.0" prefWidth="341.0" />
+                  <Separator layoutX="283.0" layoutY="508.0" orientation="VERTICAL" prefHeight="265.0" prefWidth="2.0" />
+                  <AnchorPane fx:id="anchor_5" layoutX="39.0" layoutY="508.0" prefHeight="208.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="133.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@chips_chitoz-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="14.0" layoutY="135.0" text="چیپس سرکه ای چی توز متوسط">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="RIGHT" layoutX="17.0" layoutY="159.0" prefHeight="17.0" prefWidth="39.0" textAlignment="RIGHT">
+                           <graphic>
+                              <ImageView fitHeight="19.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="186.0" text="12000تومان">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="97.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="159.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="163.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="101.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="129.0" layoutY="182.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_6" layoutX="320.0" layoutY="508.0" prefHeight="208.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="126.0" fitWidth="150.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ice_cream_ghifi_kale-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="56.0" layoutY="137.0" text="بستنی قیفی کاله">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="RIGHT" layoutX="17.0" layoutY="159.0" prefHeight="17.0" prefWidth="39.0" textAlignment="RIGHT">
+                           <graphic>
+                              <ImageView fitHeight="19.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="186.0" text="10000تومان">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="97.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <Button layoutX="159.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" />
+                        <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="163.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@plas-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="101.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@minus-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="129.0" layoutY="182.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </AnchorPane>
+         </content>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutX="350.0" layoutY="33.0" style="-fx-background-color: light gray;" text="Moon kala" textFill="#0b3921">
+         <font>
+            <Font name="Bauhaus 93" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="73.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true" />
+      <Separator layoutX="158.0" layoutY="70.0" prefHeight="8.0" prefWidth="472.0" />
+      <AnchorPane layoutX="648.0" layoutY="208.0" prefHeight="558.0" prefWidth="174.0" style="-fx-border-radius: 25; -fx-background-color: gray; -fx-border-color: white;">
+         <children>
+            <Label layoutX="51.0" layoutY="32.0" text="فیلتر ها">
+               <font>
+                  <Font name="Showcard Gothic" size="24.0" />
+               </font>
+            </Label>
+            <Accordion layoutX="4.0" layoutY="108.0" prefHeight="75.0" prefWidth="192.0">
+               <panes>
+                <TitledPane animated="false" prefHeight="101.0" prefWidth="192.0" text="نوع">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="موادغذایی" />
+                              <CheckBox mnemonicParsing="false" text="تنقلات" />
+                              <CheckBox mnemonicParsing="false" text="لبنیات" />
+                           </children>
+                        </VBox>
+                     </content>
+                </TitledPane>
+                <TitledPane animated="false" text="برند">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="پگاه" />
+                              <CheckBox mnemonicParsing="false" text="کاله" />
+                              <CheckBox mnemonicParsing="false" text="اویلا" />
+                              <CheckBox mnemonicParsing="false" text="زر ماکارون" />
+                              <CheckBox mnemonicParsing="false" text="تک" />
+                              <CheckBox mnemonicParsing="false" text="طبیعت" />
+                              <CheckBox mnemonicParsing="false" text="بهار" />
+                              <CheckBox mnemonicParsing="false" text="مزمز" />
+                              <CheckBox mnemonicParsing="false" text="چی توز" />
+                              <CheckBox mnemonicParsing="false" text="چین چین" />
+                           </children>
+                        </VBox>
+                     </content>
+                </TitledPane>
+                <TitledPane animated="false" prefHeight="206.0" prefWidth="198.0" text="محدوده قیمت">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <TextField alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="142.0" />
+                              <Label text="تا" />
+                              <TextField prefHeight="25.0" prefWidth="146.0">
+                                 <opaqueInsets>
+                                    <Insets top="7.0" />
+                                 </opaqueInsets>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </content>
+                </TitledPane>
+               </panes>
+            </Accordion>
+         </children>
+         <padding>
+            <Insets right="5.0" top="5.0" />
+         </padding></AnchorPane>
+      <Button layoutX="12.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" />
+      <Button layoutX="76.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" />
+      <ImageView fitHeight="42.0" fitWidth="48.0" layoutX="14.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cart-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="48.0" layoutX="82.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profile-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="543.0" layoutY="220.0" text="مرتب سازی" />
+      <ImageView fitHeight="40.0" fitWidth="48.0" layoutX="599.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sort-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="478.0" layoutY="216.0" mnemonicParsing="false" text="ارزان ترین" />
+      <Button layoutX="394.0" layoutY="216.0" mnemonicParsing="false" text="گران ترین" />
+      <Button layoutX="14.0" layoutY="229.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="1" />
+      <Button layoutX="296.0" layoutY="216.0" mnemonicParsing="false" text="محبوب ترین" />
+      <Button layoutX="50.0" layoutY="229.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="2" />
+      <Button layoutX="88.0" layoutY="229.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="3" />
+   </children>
+</AnchorPane>
